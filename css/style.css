@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+   /* box-sizing est appliqué à tous les éléments */
+   }
+html{
+    font-family:Raleway;
+}
+
+body {
+    
+    font-size: large;
+}
+
+
+        /* ''''''logo + nav'''''''' */
+header{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-content: center;
+} 
+nav{
+   display: flex;
+   align-content: space-between;
+   position: relative;
+   left: 700px;
+   float: right;
+   bottom: 115px;
+}       
+
+.menu{
+    display: flex;
+    padding: 0;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.menu li{
+    list-style-type: none;
+    border-top: 2px solid transparent;
+}
+header  nav  ul li 
+{
+    padding: 50px 25px;
+    border-top: 2px solid transparent;
+    margin: 0px 20px 0px 20px;
+    
+}
+
+header  nav  ul li:hover {
+    border-color:#0065fc;
+}
+
+header  nav  ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header  nav  ul li:hover a {
+    color: #0065fc;
+}
+      /* section 1 */
+.section1
+{
+    position: relative;
+    bottom:150px;
+}      
+
+
+h2{
+    font-weight:bold;   
+}
+p span{
+    position: relative;
+    bottom: 20px;
+    font-weight: 200;
+}
+        /*Formulaire */
+
+
+.flex-form{
+      display: flex;
+      border-radius: 12px;
+      border: 1px solid #f2f2f2;
+      width: fit-content;
+      height: fit-content;
+      padding: none;
+      position: relative;
+      top: auto;
+      bottom: 75px;
+   
+} 
+.fas{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    background-size:contain;
+    padding: 10px;
+    
+}
+
+input[type=text]{
+    font-weight: bolder;
+    border:none;
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+input::placeholder{
+    color: black;
+
+}
+
+input[type=submit]{
+    background-color:#0065fc;
+    border-left: transparent;
+    border-style: hidden;
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+    color: blanchedalmond; 
+    font-weight: bold;   
+}
+        /*Filtres*/
+   .filters {
+       display: flex;
+       justify-content:space-evenly;
+       align-content:space-between ;
+       position: relative;
+       right: 120px;
+       bottom: 50px;
+       font-weight: bolder;
+       
+       
+   }
+   .filters li .fas{
+       background-color:#deebff ;
+       border-radius: 20px;
+       border: 1px solid #deebff;
+
+   }
+   .filters li{
+       border-radius: 20px;
+       border:1px solid #deebff;
+       list-style-type: none;
+       margin: 0%;
+       
+   }
+    li.ff{
+       border: none;
+       position: relative;
+       left:25px;
+       top:10px;
+   }
+   .information .fas{
+       border-radius: 20px;
+       border:  1px solid #deebff;
+       background-color: white;
+       
+
+   }
+   /* hebergements */
+
+   .hotels{
+       display: flex;
+       width: 500px;
+       height: 500px;
+       background-color: #f2f2f2;
+       flex-direction: column;
+   }
+
+   img{
+       max-width: 230px;
+       border-radius: 30px;
+       display: flex;
+       
+   }
+   figure{
+       margin: 2px;
+       border-radius: 20px;
+       background-color: white;
+       width: 230px;
+       border-top: 3px solid white;
+   }
+   h3{
+       font-weight: 700;
+       font-size: large;
+   }
+   figcaption{
+       display: flex;
+       flex-direction: column;
+       text-align:-webkit-left ;
+   }
+  figcaption p{
+      text-align: left;
+      margin-top: unset;
+  }
+  figcaption .fas{
+      background-color: white;
+      color: #0065fc;
+      padding: inherit;
+
+  }
+  .stars{
+      padding: 1px;
+  }
+   
+  
+
+  
+       
+   
+
+
+
+
+    
