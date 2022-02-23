@@ -1,3 +1,6 @@
+@media only screen and (max-width : 992px){
+    /* Styles pour cette Media Queries */
+    }
 * {
     box-sizing: border-box;
    /* box-sizing est appliqué à tous les éléments */
@@ -23,8 +26,8 @@ nav{
    display: flex;
    align-content: space-between;
    position: relative;
-   left: 700px;
-   float: right;
+   left: 910px;
+   
    bottom: 115px;
 }       
 
@@ -122,10 +125,8 @@ input[type=submit]{
    .filters {
        display: flex;
        justify-content:space-evenly;
-       align-content:space-between ;
        position: relative;
-       right: 120px;
-       bottom: 50px;
+       right: 150px;
        font-weight: bolder;
        
        
@@ -160,13 +161,13 @@ input[type=submit]{
 
    .hotels{
        display: flex;
-       width: 500px;
-       height: 500px;
        background-color: #f2f2f2;
        flex-direction: column;
+       width: 850px;
+       border-radius: 20px;
    }
 
-   img{
+   .hotels img{
        max-width: 230px;
        border-radius: 30px;
        display: flex;
@@ -176,8 +177,10 @@ input[type=submit]{
        margin: 2px;
        border-radius: 20px;
        background-color: white;
-       width: 230px;
-       border-top: 3px solid white;
+       
+       border-top: 5px solid white;
+       border-left: 4px solid white;
+       height: min-content;
    }
    h3{
        font-weight: 700;
@@ -201,8 +204,93 @@ input[type=submit]{
   .stars{
       padding: 1px;
   }
-   
+   .colonne1
+   {
+     display: flex;
+    justify-content: space-evenly;
+
+   }
+   .colonne2{
+    display: flex;
+   justify-content: space-evenly;
+
   
+         /* colonne de droite */
+
+   }
+ .bannerright{
+     display: flex;
+     flex-direction: column;
+     background-color: #f2f2f2;
+     width: fit-content;
+     position: relative;
+     left: 910px;
+     bottom: 700px;
+
+     border-radius: 20px;
+
+ }
+ .bannerright figure{
+     display: flex;
+     width: fit-content;
+     margin: 20px;
+
+     
+
+ }
+ .bannerright img{
+     max-width: fit-content;
+     height: 150px;
+     border-radius: 30px;
+ }
+ .bannerright figcaption{
+     display: flex;
+     flex-direction: column;
+ }
+
+ /* section activites */
+
+ .activites{
+     display: flex;
+     position: relative;
+     bottom: 650px;
+     flex-direction: column;
+ }
+ .activites img{
+     width: 370px;
+     height: 450px;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+
+ }
+ .activites figcaption{
+     display: flex;
+     flex-direction: column;
+     font-size: larger;
+     font-weight: bold;
+     margin-left: 20px;
+ }
+ .activites figure{
+    background-color: #f2f2f2;
+
+ 
+ }
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}  
+footer li{
+    column-gap: normal;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
+
+               
 
   
        
