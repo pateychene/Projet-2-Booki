@@ -234,7 +234,7 @@ h1{
 .article-body{
     display: flex;
     flex-direction: column;
-    padding: 0px 8px;
+    padding: 0px 6px;
     box-sizing: content-box;
     font-size: 12px;
 }
