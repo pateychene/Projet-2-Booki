@@ -73,6 +73,8 @@ h1{
     display: flex; 
     border-radius:15px;
     width:100%;
+    position: relative;
+    top: 15px;
 }
 
 .flex-form .fas{
@@ -176,26 +178,31 @@ h1{
     margin-right: 15px;
 }
         /* Hebergements */
+        
 
 
-#hebergement{
+#hebergement{                           /* div qui englobe les deux sections */
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 #hebergement section h2 {
     margin-top: 0px;
 }
 
-#hebergement section .conteneur {
+#hebergement section .conteneur {       /* definition des proprietes des deux sections */
     background-color: var(--gris);
     padding: 20px 20px 10px 20px;
     border-radius: 20px;
     box-sizing: content-box;
+    border-bottom-style: groove;
+
 }
-.card__hotel__list {
+.card__hotel__list {                    /* div des hotels dans la div globale hebergment */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .card__hotel__list a {
@@ -205,9 +212,9 @@ h1{
 
 .card__hotel__list a article {
     background-color: white;
-    padding: 7px;
+    padding: 4px;
     border-radius: 25px;
-    height: 100%;
+    
 }
 .card__hotel__list a article:hover {
     box-shadow: 5px 5px 5px 0px #E2E2E2;
@@ -222,36 +229,43 @@ h1{
 }
 
 .card__hotel__list a article img {
-    width: 100%;
-    height: 140px;
+    width: 200px;
+    height: 130px;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
 }
+.article-body{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+    box-sizing: content-box;
+    font-size: 12px;
+}
+
 
 .card__hotel__list a {
     color: black;
     text-decoration: none;
 }
 
-.hebergement-list a article .article-body {
-    padding: 10px 10px 0px 10px;
-}
+
 
 .card__hotel__list a article .article-body h3,
 .card__hotel__list a article .article-body p {
-    margin: 6px;
+    margin: 3px;
+    font-size: 16px;
 }
 
-.card__hotel__list a article .article-body .card-price {
-    font-weight: bold;
-}
+
 #hebergement .H-M {
     width: 60%;
 }
 
-#hebergement .H-M .subtitle {
-    font-weight: bold;
-}   
+
+.soustitre{
+    margin-bottom:auto; 
+    font-size: 18px;
+}  
 
 
     /* colonne les plus populaires */
@@ -267,7 +281,7 @@ h1{
         position: relative;
     }
     
-    #hebergement .populaire .card__hotel__list {
+    #hebergement .populaire .card__hotel__list {  /* direction du flex des card les plus populaires */
         flex-direction: column;
     }
     
@@ -282,7 +296,8 @@ h1{
     
     #hebergement .populaire .card__hotel__list a article img {
         border-radius: 25px 0px 0px 25px;
-        width: 35%;
+        width: 40%;
+        height: 120px;
     }
     
     #hebergement .populaire .card__hotel__list a article .article-body {
@@ -290,10 +305,11 @@ h1{
         justify-content: space-between;
         flex-direction: column;
     }
-
-    .populaire img{
-        width:300px;
+    
+    #herbergement section .populaire{
+        width: fit-content;
     }
+
     
     
 
@@ -361,7 +377,6 @@ footer .liste ul {
 footer .liste ul li a {
     color: black;
     text-decoration: none;
-    
     list-style-type: none;
 }   
 
