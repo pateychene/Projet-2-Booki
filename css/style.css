@@ -127,12 +127,9 @@ h1{
     margin: 1%;
 }
 #filters .categorie {
-    border-top-right-radius: 18px;
-    border-bottom-right-radius:18px ;
     border-left: none;
     display: flex;
     align-items: center;
-    font-weight: bold;
     cursor: pointer;
     transition: background-color 1s;
     margin: 10px;
