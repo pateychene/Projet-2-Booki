@@ -13,7 +13,7 @@ body {
     font-family: Raleway;
     margin: 0;
     padding: 0px 30px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 h1 {
@@ -59,6 +59,8 @@ header nav ul li:hover a {
 }
 
             /* Sous titre + Formulaire Recherche */
+
+
 h1{
     margin-bottom: 1%;
     font-size: 28px;
@@ -84,11 +86,11 @@ h1{
     border-radius: 15px 0px 0px 15px;
 }
 
-.flex-form input[type=submit]{
+.searchboxinput{
     border: none;
     background-color: var(--bleu);
     color: white;
-    font-weight:bolder;
+    
 }
 .flex-form input[type=text]{
     border:none;
@@ -107,12 +109,22 @@ h1{
     border: none;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
 }
 .flex-form button .fas{
     display: none;
+   
 }
 
         /* Filtres */
+.filterlist{
+    display: flex;
+    align-items: baseline;
+}
+
 #filters{
     display: flex;
     align-items: center;
@@ -124,7 +136,7 @@ h1{
     list-style-type: none;
     border: 3px solid var(--gris);
     border-radius: 50px;
-    margin: 1%;
+    margin: 25px;
 }
 #filters .categorie {
     border-left: none;
@@ -161,6 +173,7 @@ h1{
         /* Information */
 .information{
     display: flex;
+    margin-bottom: 15px;
 }
 .information .fas{
     color: var(--bleu);
@@ -250,7 +263,7 @@ h1{
 .card__hotel__list a article .article-body h3,
 .card__hotel__list a article .article-body p {
     margin: 3px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 
@@ -259,10 +272,7 @@ h1{
 }
 
 
-.soustitre{
-    margin-bottom:auto; 
-    font-size: 18px;
-}  
+ 
 
 
     /* colonne les plus populaires */
@@ -324,16 +334,17 @@ h1{
 }
 
 .activite-list .column {
-    width: 290px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 25px;
+    margin: 6px;
 }
 
 .activite-list .column article img {
     width: 100%;
-    height: calc(90% - 30px);
+    height: calc(100% - 67px);
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
@@ -345,12 +356,15 @@ h1{
 }
 
 .activite-list .column article h3 {
-    padding: 0px;
+    padding: 8px;
     margin: 0px;
+    font-size: smaller;
+     cursor: pointer;
 }
 
 .activite-list .column.double article {
-    height: 45%;
+    height: 48%;
+    
 }
 
     /* footer */

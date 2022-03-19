@@ -1,0 +1,30 @@
+#filters {
+    flex-wrap: wrap;
+}
+
+#hebergement {
+    flex-direction: column;
+}
+
+#hebergement .H-M,
+#hebergement .populaire {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#activite .activite-list {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#activite .activite-list .column {
+    width: 50%;
+}
+
+footer {
+    justify-content: space-between;
+}
+
+footer .liste {
+    width: auto;
+}

@@ -1,0 +1,75 @@
+body {
+    padding: 0px 20px;
+}
+
+header {
+    flex-direction: column;
+}
+
+header #logonav {
+    margin-left: 150px;
+}
+
+header nav ul {
+    margin: 0px -20px;
+    padding: 0;
+}
+
+header nav ul li {
+    width: 50%;
+    padding: 20px;
+    margin: 0px;
+    border-top: none;
+    border-bottom: 2px solid var(--gris);
+    text-align: center;
+}
+
+.flex-form button {
+    border-radius: 8px;
+}
+
+.flex-form button .fa-search {
+    display: block;
+    background-color: var(--bleu);
+}
+.searchboxinput{
+    display: none;
+}
+
+#filters{
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#hebergement .H-M {
+    order: 2;
+}
+
+#hebergement .populaire {
+    order: 1;
+}
+
+#hebergement .H-M .card__hotel__list {
+    flex-direction: column;
+}
+
+#hebergement .H-M .card__hotel__list a {
+    width: 100%;
+}
+
+#activite .card__hotel__list .column {
+    width: 100%;
+}
+
+.activite-list .column article,
+.activite-list .column.double article {
+    width: 200%;
+    height: 190px;
+    margin-bottom: 20px;   
+}
+
+footer {
+    flex-direction: column;
+    width: 140%;
+}
