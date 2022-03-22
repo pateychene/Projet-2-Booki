@@ -25,7 +25,9 @@ header nav ul li {
 }
 
 .flex-form button {
-    border-radius: 8px;
+    border-radius: 6px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .flex-form button .fa-search {
@@ -37,7 +39,7 @@ header nav ul li {
 }
 
 #filters{
-    flex-direction: column;
+    
     align-items: flex-start;
     flex-wrap: wrap;
 }

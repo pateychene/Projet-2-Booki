@@ -106,7 +106,7 @@ h1{
 }
 .flex-form button{
     background-color: var(--bleu);   
-    border: none;
+    border:1px solid var(--bleu);
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
     color: white;
@@ -144,7 +144,7 @@ h1{
     align-items: center;
     cursor: pointer;
     transition: background-color 1s;
-    margin: 10px;
+    margin: 5px;
 
     
 }
@@ -165,9 +165,9 @@ h1{
 #filters  :hover{
     background-color: var(--bleuclair);
     transition: background-color 1s;
-      -webkit-transform: scale(1.1);
-     -ms-transform: scale(1.1);
-      transform: scale(1.1);
+      -webkit-transform: scale(1);
+     -ms-transform: scale(1);
+      transform: scale(1);
 }
 
         /* Information */
