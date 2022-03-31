@@ -34,14 +34,23 @@ header nav ul li {
     display: block;
     background-color: var(--bleu);
 }
+.flex-form{
+    margin: 0px 0px 10px 5px;
+}
+
 .searchboxinput{
     display: none;
 }
 
 #filters{
     
-    align-items: flex-start;
+    align-items:center;
     flex-wrap: wrap;
+    padding: 0;
+}
+.filterlist{
+    display: block;
+    align-items: baseline;
 }
 
 #hebergement .H-M {

@@ -75,8 +75,6 @@ h1{
     display: flex; 
     border-radius:15px;
     width:100%;
-    position: relative;
-    top: 15px;
 }
 
 .flex-form .fas{
@@ -129,6 +127,7 @@ h1{
     display: flex;
     align-items: center;
     padding-left: 4px;
+    margin-left: 0;
 
 }
 #filters li{
@@ -136,7 +135,7 @@ h1{
     list-style-type: none;
     border: 3px solid var(--gris);
     border-radius: 50px;
-    margin: 25px;
+    margin: 15px;
 }
 #filters .categorie {
     border-left: none;
@@ -228,6 +227,9 @@ h1{
 }
 .card__hotel__list a article:hover {
     box-shadow: 5px 5px 5px 0px #E2E2E2;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
 }
 
 .card__hotel__list a article .fa-star.bleu {
@@ -347,6 +349,12 @@ h1{
     height: calc(100% - 67px);
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
+}
+.activite-list article:hover{
+    box-shadow: 5px 5px 5px 0px #E2E2E2;
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02); 
 }
 
 .activite-list .column article {
