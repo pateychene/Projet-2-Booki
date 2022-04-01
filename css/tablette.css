@@ -15,10 +15,11 @@
 #activite .activite-list {
     flex-wrap: wrap;
     height: auto;
+    width: 100%;
 }
 
 #activite .activite-list .column {
-    width: 50%;
+    width: 100%;
 }
 
 footer {

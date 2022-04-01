@@ -11,7 +11,7 @@ header #logonav {
 }
 
 header nav ul {
-    margin: 0px -20px;
+    
     padding: 0;
 }
 
@@ -75,11 +75,13 @@ header nav ul li {
 
 .activite-list .column article,
 .activite-list .column.double article {
-    width: 100%;
+    width: auto;
+    height: 190px;
     margin-bottom: 20px;   
 }
 
 footer {
     flex-direction: column;
+    padding: 20px;
     
 }
