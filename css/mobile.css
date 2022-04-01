@@ -1,5 +1,5 @@
 body {
-    padding: 0px 20px;
+    padding: 0%;
 }
 
 header {
@@ -75,12 +75,11 @@ header nav ul li {
 
 .activite-list .column article,
 .activite-list .column.double article {
-    width: 200%;
-    height: 190px;
+    width: 100%;
     margin-bottom: 20px;   
 }
 
 footer {
     flex-direction: column;
-    width: 140%;
+    
 }

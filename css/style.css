@@ -12,7 +12,7 @@
 body {
     font-family: Raleway;
     margin: 0;
-    padding: 0px 30px;
+    
     font-size: 17px;
 }
 
@@ -380,7 +380,6 @@ h1{
  footer{
      background-color: var(--gris);
      display: flex;
-     margin: 0px -50px;
      padding: 50px;
  }
  footer .liste {
@@ -390,7 +389,7 @@ h1{
 footer .liste ul {
     padding: 0px;
     list-style-type: none;
-    margin-left: 110px;
+    
 }
 
 footer .liste ul li a {
